@@ -1,0 +1,47 @@
+﻿# Generic C CPP programming language project .gitignore範本
+# insert content of Object_code.gitignore here
+# 排除建構出來的目標程式碼檔案
+*.o
+*.obj
+Object_code/
+
+# insert content of Executables.gitignore here
+# Windows 二進位可執行檔
+*.exe
+
+# Unix 作業系統可執行檔（無副檔名的檔案，GNU Make 的 Makefile 是例外）與可執行檔常見副檔名的檔案
+*
+!Makefile
+!*.*
+a.out
+
+# insert content of Library_files.gitignore here
+# 動態連結函式庫
+*.dll
+*.so
+
+# 靜態連結函式庫
+*.lib
+*.a
+
+# insert content of IDE_custom_build_target_directories.gitignore here
+# 排除整合式開發環境各個 built target 建構出來的產物
+[Dd]ebug*/
+[Rr]elease*/
+
+# insert content of Software_build.gitignore here
+#排除建構產物目錄
+[Bb]uild/
+[Bb]in/
+
+# 插入你自己的喜好規則
+*.executable
+*.object_code
+Object_code/
+
+	#Resources目錄底下的東西為相關資源不要排除掉
+!Resources/
+
+#Git版本控制系統排除規則，放在最後面以免被後面的規則覆蓋掉
+	#排除所有目錄下的.gitignore排除規則檔案
+!*.gitignore
