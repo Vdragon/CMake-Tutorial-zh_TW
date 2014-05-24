@@ -13,6 +13,7 @@ Object_code/
 *
 !Makefile
 !*.*
+!*/
 a.out
 
 # insert content of Library_files.gitignore here
