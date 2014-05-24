@@ -14,7 +14,8 @@ configure_file (
 
 # add the binary tree to the search path for include files
 # so that we will find TutorialConfig.h
-include_directories("${PROJECT_BINARY_DIR}")
+# Ｖ字龍：因為 tutorial.cxx 無透過 include path 清單來找到 TutorialConfig.h 所以這一行應該不需要用
+# include_directories("${PROJECT_BINARY_DIR}")
 
 # add the executable
 add_executable(教學程式 tutorial.cxx)
