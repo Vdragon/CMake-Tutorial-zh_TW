@@ -50,8 +50,8 @@ Object_code/
 	#Resources目錄底下的東西為相關資源不要排除掉
 !Resources/
 
-# 由 TutorialConfig.h.in 自動生成
-TutorialConfig.h
+# 由 教學設定.h.in 自動生成
+教學設定.h
 
 #Git版本控制系統排除規則，放在最後面以免被後面的規則覆蓋掉
 	#排除所有目錄下的.gitignore排除規則檔案
