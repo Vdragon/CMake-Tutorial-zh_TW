@@ -1,0 +1,2 @@
+# Now we will add a library to our project. This library will contain our own implementation for computing the square root of a number. The executable can then use this library instead of the standard square root function provided by the compiler. For this tutorial we will put the library into a subdirectory called MathFunctions. It will have the following one line CMakeLists file:
+add_library(MathFunctions mysqrt.cxx)
